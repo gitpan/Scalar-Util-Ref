@@ -1,0 +1,33 @@
+NAME
+
+	Scalar::Util::Ref - A selection of general-utility reference subroutines
+
+SYNOPSIS
+
+	use Scalar::Util::Ref qw(:all);
+
+DESCRIPTION
+
+	This module provides general utilities for references and object references.
+
+	See "perldoc Scalar::Util::Ref" for the rest of the document.
+
+DEPENDENCIES
+
+	perl 5.8.1 or later, and a C compiler.
+
+INSTALLATION
+
+	To install this module, run the following commands:
+
+	perl Makefile.PL
+	make
+	make test
+	make install
+
+COPYRIGHT AND LICENCE
+
+	Copyright (c) 2008 Goro Fuji, Some rights reserved.
+
+	This program is free software; you can redistribute it and/or
+	modify it under the same terms as Perl itself.
